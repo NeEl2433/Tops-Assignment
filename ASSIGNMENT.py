@@ -2,7 +2,7 @@
 # COMPREHENSIVE PYTHON Q&A
 # =============================================================================
 
-"""
+
 1) What are the types of Applications?
    
    Types of applications include:
@@ -13,17 +13,17 @@
    - Embedded Systems Applications (run on specialized hardware)
    - Cloud Applications (hosted on cloud platforms)
    - Command Line Applications (run in terminal/console)
-"""
 
-"""
+
+
 2) What is programming?
    
    Programming is the process of creating instructions for computers to execute.
    It involves writing code in programming languages to solve problems, automate tasks,
    and create software applications that perform specific functions.
-"""
+ 
 
-"""
+ 
 3) What is Python?
    
    Python is a high-level, interpreted, object-oriented programming language known for:
@@ -33,13 +33,13 @@
    - Support for multiple programming paradigms
    - Cross-platform compatibility
    - Large community and ecosystem
-"""
+ 
 
 # =============================================================================
 # PROGRAMMING EXERCISES
 # =============================================================================
 
-# 4)  Write a Python program to check if a number is positive, negative or zero
+4)  Write a Python program to check if a number is positive, negative or zero
 def check_number_sign(number):
     """
     Check if a number is positive, negative or zero.
@@ -58,7 +58,7 @@ print(f"-3 is {check_number_sign(-3)}")
 print(f"0 is {check_number_sign(0)}")
 print()
 
-# 5)  Write a Python program to get the Factorial number of given numbers
+ 5)  Write a Python program to get the Factorial number of given numbers
 def factorial(n):
     """
     Calculate factorial of a number.
@@ -78,7 +78,7 @@ print(f"Factorial of 5: {factorial(5)}")
 print(f"Factorial of 0: {factorial(0)}")
 print()
 
-# 6) Write a Python program to get the Fibonacci series of given range
+6) Write a Python program to get the Fibonacci series of given range
 def fibonacci_series(n):
     """
     Generate Fibonacci series up to n terms.
@@ -102,7 +102,7 @@ print("6) Fibonacci Series:")
 print(f"First 10 Fibonacci numbers: {fibonacci_series(10)}")
 print()
 
-"""
+ 
 7) How memory is managed in Python?
    
    Python memory management involves:
@@ -111,17 +111,17 @@ print()
    - Garbage collector: Automatically reclaims memory from unused objects
    - Reference counting: Tracks references to objects
    - Generational garbage collection: For cyclic references
-"""
+ 
 
-"""
+ 
 8) What is the purpose of continue statement in python?
    
    The continue statement is used to skip the current iteration of a loop
    and move to the next iteration. It's useful when you want to skip certain
    elements or conditions within a loop without breaking out of the loop entirely.
-"""
 
-# 9)Write python program that swap two number with temp variable and without temp variable. 
+
+ 9)Write python program that swap two number with temp variable and without temp variable. 
 def swap_with_temp(a, b):
     """Swap using temporary variable"""
     temp = a
@@ -150,7 +150,7 @@ print(f"Without temp: {swap_without_temp(x, y)}")
 print(f"Pythonic way: {swap_pythonic(x, y)}")
 print()
 
-# 10)  Write a Python program to find whether a given number is even or odd, print out an appropriate message to the user. 
+ 10)  Write a Python program to find whether a given number is even or odd, print out an appropriate message to the user. 
 def check_even_odd(number):
     """
     Check if a number is even or odd.
@@ -165,7 +165,7 @@ print(check_even_odd(7))
 print(check_even_odd(12))
 print()
 
-# 11)  Write a Python program to test whether a passed letter is a vowel or not. 
+ 11)  Write a Python program to test whether a passed letter is a vowel or not. 
 def is_vowel(letter):
     """
     Check if a letter is a vowel.
@@ -185,7 +185,7 @@ print(is_vowel('b'))
 print(is_vowel('E'))
 print()
 
-# 12) Write a Python program to sum of three given integers. However, if two values are equal sum will be zero. 
+ 12) Write a Python program to sum of three given integers. However, if two values are equal sum will be zero. 
 def conditional_sum(a, b, c):
     """
     Sum three integers, return zero if any two are equal.
@@ -200,7 +200,7 @@ print(f"Sum of 1, 2, 3: {conditional_sum(1, 2, 3)}")
 print(f"Sum of 2, 2, 3: {conditional_sum(2, 2, 3)}")
 print()
 
-# 13) Write a Python program that will return true if the two given integer values are equal or their sum or difference is 5. 
+ 13) Write a Python program that will return true if the two given integer values are equal or their sum or difference is 5. 
 
 def check_special_condition(a, b):
     """
@@ -220,7 +220,7 @@ print(f"8, 3: {check_special_condition(8, 3)}")
 print(f"1, 4: {check_special_condition(1, 4)}")
 print()
 
-# 14) Write a python program to sum of the first n positive integers.
+ 14) Write a python program to sum of the first n positive integers.
 def sum_first_n_positive(n):
     """
     Calculate sum of first n positive integers.
@@ -234,7 +234,7 @@ print(f"Sum of first 5 positive integers: {sum_first_n_positive(5)}")
 print(f"Sum of first 10 positive integers: {sum_first_n_positive(10)}")
 print()
 
-# 15) Write a Python program to calculate the length of a string. 
+ 15) Write a Python program to calculate the length of a string. 
 def string_length(s):
     """
     Calculate length of a string.
@@ -246,7 +246,7 @@ print(f"Length of 'Hello': {string_length('Hello')}")
 print(f"Length of 'Python Programming': {string_length('Python Programming')}")
 print()
 
-# 16)Write a Python program to count the number of characters (character frequency) in a string 
+ 16)Write a Python program to count the number of characters (character frequency) in a string 
 
 def character_frequency(string):
     """
@@ -266,7 +266,7 @@ freq_result = character_frequency(test_string)
 print(f"Frequency in '{test_string}': {freq_result}")
 print()
 
-"""
+ 
 17) What are negative indexes and why are they used?
    
    Negative indexes in Python allow accessing elements from the end of a sequence.
@@ -276,9 +276,9 @@ print()
    - Convenient access to elements from the end
    - Simplifying code when working with the end of sequences
    - Making certain operations more intuitive and readable
-"""
+ 
 
-# 18) Write a Python program to count occurrences of a substring in a string.
+ 18) Write a Python program to count occurrences of a substring in a string.
 def count_substring_occurrences(main_string, substring):
     """
     Count occurrences of a substring in a string.
@@ -322,7 +322,7 @@ if __name__ == "__main__":
     
     # You can add more test cases here to demonstrate all functions
     
-# 19)  Write a Python program to count the occurrences of each word in a sentence.
+ 19)  Write a Python program to count the occurrences of each word in a sentence.
 def count_word_occurrences(sentence):
     """
     Count occurrences of each word in a given sentence.
@@ -348,7 +348,7 @@ print(f"Sentence: '{test_sentence}'")
 print(f"Word occurrences: {word_occurrences}")
 print()
 
-# 20) Write a Python program to get a single string from two given strings,separated by a space and swap the first two characters of each string. 
+ 20) Write a Python program to get a single string from two given strings,separated by a space and swap the first two characters of each string. 
 def swap_first_two_chars(str1, str2):
     """
     Get a single string from two given strings, separated by a space
@@ -369,7 +369,7 @@ result = swap_first_two_chars("hello", "world")
 print(f"'hello' and 'world' -> {result}")
 print()
 
-# 21)) Write a Python program to add 'in' at the end of a given string (lengthshould be at least 3). If the given string already ends with 'ing' thenadd 'ly' instead if the string length of the given string is less than 3,leave it unchanged. 
+ 21)) Write a Python program to add 'in' at the end of a given string (lengthshould be at least 3). If the given string already ends with 'ing' thenadd 'ly' instead if the string length of the given string is less than 3,leave it unchanged. 
 def modify_string(s):
     """
     Add 'in' at the end of a given string (length should be at least 3).
@@ -392,7 +392,7 @@ print(f"'test' -> '{modify_string('test')}'")
 print(f"'ab' -> '{modify_string('ab')}'")
 print()
 
-# 22) ) Write a Python function to reverses a string if its length is a multiple of 4. 
+ 22) ) Write a Python function to reverses a string if its length is a multiple of 4. 
 def reverse_if_multiple_of_4(s):
     """
     Reverse a string if its length is a multiple of 4.
@@ -407,7 +407,7 @@ print(f"'python' (length 6) -> '{reverse_if_multiple_of_4('python')}'")
 print(f"'abcdefgh' (length 8) -> '{reverse_if_multiple_of_4('abcdefgh')}'")
 print()
 
-# 23) Write a Python program to get a string made of the first 2 and the last2 chars from a given a string. If the string length is less than 2, return instead of the empty string. 
+ 23) Write a Python program to get a string made of the first 2 and the last2 chars from a given a string. If the string length is less than 2, return instead of the empty string. 
 def first_last_two_chars(s):
     """
     Get a string made of the first 2 and last 2 chars from a given string.
@@ -425,7 +425,7 @@ print(f"'a' -> '{first_last_two_chars('a')}'")
 print(f"'hello world' -> '{first_last_two_chars('hello world')}'")
 print()
 
-# 24) )Write a Python function to insert a string in the middle of a string
+ 24) )Write a Python function to insert a string in the middle of a string
 def insert_string_middle(original, to_insert):
     """
     Insert a string in the middle of another string.
@@ -438,7 +438,7 @@ print(f"'[[]]' with 'Python' -> '{insert_string_middle('[[]]', 'Python')}'")
 print(f"'HelloWorld' with 'Beautiful' -> '{insert_string_middle('HelloWorld', 'Beautiful')}'")
 print()
 
-"""
+ 
 25) What is List? How will you reverse a list?
 
    A list in Python is an ordered, mutable collection of items that can be of different data types.
@@ -448,25 +448,23 @@ print()
    1. Using reverse() method (in-place): list.reverse()
    2. Using slicing: reversed_list = list[::-1]
    3. Using reversed() function: reversed_list = list(reversed(original_list))
-"""
+ 
 
-"""
+ 
 26) How will you remove last object from a list?
 
    Ways to remove last object from a list:
    1. Using pop() method: list.pop()
    2. Using slicing: list = list[:-1]
    3. Using del statement: del list[-1]
-"""
-
-"""
+ 
+ 
 27) Suppose list1 is [2, 33, 222, 14, and 25], what is list1 [-1]?
 
    list1[-1] would return 25, because negative indexing starts from the end of the list.
    -1 refers to the last element, -2 to the second last, and so on.
-"""
 
-"""
+    
 28) Differentiate between append() and extend() methods?
 
    append(): 
@@ -478,9 +476,9 @@ print()
    - Iterates over its argument and adds each element to the list
    - The length of the list increases by the number of elements in the iterable
    - Example: [1, 2, 3].extend([4, 5]) becomes [1, 2, 3, 4, 5]
-"""
+ 
 
-# 29) Write a Python function to get the largest number, smallest num and sum of all from a list
+ 29) Write a Python function to get the largest number, smallest num and sum of all from a list
 def list_analysis(numbers):
     """
     Get the largest number, smallest number and sum of all from a list.
@@ -612,7 +610,7 @@ def demonstrate_all_functions():
 if __name__ == "__main__":
     demonstrate_all_functions()
 
-"""
+ 
 30) How will you compare two lists?
 
    There are several ways to compare two lists in Python:
@@ -622,9 +620,8 @@ if __name__ == "__main__":
    3. Check if all elements are equal regardless of order: sorted(list1) == sorted(list2)
    4. Check if one list contains all elements of another: all(item in list2 for item in list1)
    5. Using set operations for unordered comparison: set(list1) == set(list2)
-"""
-
-# 31) Write a Python program to count the number of strings where the stringlength is 2 or more and the first and last character are same from a given listof strings.
+ 
+ 31) Write a Python program to count the number of strings where the stringlength is 2 or more and the first and last character are same from a given listof strings.
 def count_special_strings(string_list):
     """
     Count strings where length is 2 or more and first and last character are same.
@@ -642,7 +639,7 @@ print(f"List: {test_strings}")
 print(f"Count: {result}")
 print()
 
-# 32) Write a Python program to remove duplicates from a list. 
+ 32) Write a Python program to remove duplicates from a list. 
 def remove_duplicates(input_list):
     """
     Remove duplicates from a list while preserving order.
@@ -667,7 +664,7 @@ print(f"Original: {duplicate_list}")
 print(f"Unique: {unique_list}")
 print()
 
-# 33) )Write a Python program to check a list is empty or not. 
+ 33) )Write a Python program to check a list is empty or not. 
 def is_list_empty(input_list):
     """
     Check if a list is empty or not.
@@ -684,7 +681,7 @@ print(f"[1, 2, 3] is empty: {is_list_empty([1, 2, 3])}")
 print(f"[''] is empty: {is_list_empty([''])}")
 print()
 
-# 34) Write a Python function that takes two lists and returns true if theyhave at least one common member. 
+ 34) Write a Python function that takes two lists and returns true if theyhave at least one common member. 
 def has_common_member(list1, list2):
     """
     Return True if two lists have at least one common member.
@@ -712,7 +709,7 @@ print(f"A and B have common members: {has_common_member(list_a, list_b)}")
 print(f"A and C have common members: {has_common_member(list_a, list_c)}")
 print()
 
-# 35)Write a Python program to generate and print a list of first and last 5elements where the values are square of numbers between 1 and 30. 
+ 35)Write a Python program to generate and print a list of first and last 5elements where the values are square of numbers between 1 and 30. 
 def generate_square_list():
     """
     Generate and print a list of first and last 5 elements where
@@ -732,7 +729,7 @@ squares_list = generate_square_list()
 print(f"Squares list: {squares_list}")
 print()
 
-# 36) Write a Python function that takes a list and returns a new list with unique elements of the first list. 
+ 36) Write a Python function that takes a list and returns a new list with unique elements of the first list. 
 def get_unique_elements(input_list):
     """
     Return a new list with unique elements of the first list.
@@ -747,7 +744,7 @@ print(f"Original: {original_list}")
 print(f"Unique: {unique_elements}")
 print()
 
-# 37) Write a Python program to convert a list of characters into a string
+ 37) Write a Python program to convert a list of characters into a string
 def char_list_to_string(char_list):
     """
     Convert a list of characters into a string.
@@ -768,7 +765,7 @@ print(f"Character list: {char_list}")
 print(f"Result string: '{result_string}'")
 print()
 
-# 38) Write a Python program to select an item randomly from a list.
+ 38) Write a Python program to select an item randomly from a list.
 import random
 
 def select_random_item(input_list):
@@ -786,7 +783,7 @@ for _ in range(5):
     print(f"Random selection: {random_item}")
 print()
 
-# 39) Write a Python program to find the second smallest number in a list. 
+ 39) Write a Python program to find the second smallest number in a list. 
 def second_smallest(numbers):
     """
     Find the second smallest number in a list.
@@ -815,7 +812,7 @@ print(f"List: {test_numbers2}")
 print(f"Second smallest: {second_small2}")
 print()
 
-# 40) Write a Python program to get unique values from a list 
+ 40) Write a Python program to get unique values from a list 
 def get_unique_values(input_list):
     """
     Get unique values from a list while preserving order.
@@ -830,7 +827,7 @@ print(f"Original: {duplicate_list}")
 print(f"Unique (ordered): {unique_ordered}")
 print()
 
-# 41) Write a Python program to check whether a list contains a sub list 
+ 41) Write a Python program to check whether a list contains a sub list 
 def contains_sublist(main_list, sublist):
     """
     Check whether a list contains a sublist.
@@ -856,7 +853,7 @@ print(f"Contains {sublist2}: {contains_sublist(main_list, sublist2)}")
 print(f"Contains {sublist3}: {contains_sublist(main_list, sublist3)}")
 print()
 
-# 42) Write a Python program to split a list into different variables. 
+ 42) Write a Python program to split a list into different variables. 
 def split_list(input_list):
     """
     Split a list into different variables.
@@ -875,7 +872,7 @@ print(f"Original list: {sample_list}")
 print(f"Split result: first={result[0]}, second={result[1]}, rest={result[2]}, last={result[3]}")
 print()
 
-"""
+ 
 43) What is tuple? Difference between list and tuple.
 
    Tuple: A tuple is an ordered, immutable collection of elements in Python.
@@ -900,13 +897,13 @@ print()
    5. Methods:
       - Lists have more built-in methods (append, extend, pop, etc.)
       - Tuples have fewer methods (count, index)
-"""
+ 
 
-# 44) Write a Python program to create a tuple with different data types.
+ 44) Write a Python program to create a tuple with different data types.
 def create_mixed_tuple():
-    """
+    
     Create a tuple with different data types.
-    """
+    
     mixed_tuple = (
         42,                   # integer
         3.14,                 # float
@@ -927,7 +924,7 @@ for i, item in enumerate(mixed_tuple):
     print(f"  {i}: {item} ({type(item).__name__})")
 print()
 
-# 45))Write a Python program to unzip a list of tuples into individual lists.
+ 45))Write a Python program to unzip a list of tuples into individual lists.
 def unzip_tuples(tuple_list):
     """
     Unzip a list of tuples into individual lists.
@@ -991,7 +988,7 @@ def demonstrate_all_functions():
 if __name__ == "__main__":
     demonstrate_all_functions()
 
-# 46) Write a Python program to convert a list of tuples into a dictionary. 
+ 46) Write a Python program to convert a list of tuples into a dictionary. 
 def tuples_to_dict(tuple_list):
     """
     Convert a list of tuples into a dictionary.
@@ -1005,7 +1002,7 @@ print(f"Tuple list: {tuple_list}")
 print(f"Dictionary: {result_dict}")
 print()
 
-# 47) How will you create a dictionary using tuples in python? 
+ 47) How will you create a dictionary using tuples in python? 
 def create_dict_from_tuples():
     """
     Create a dictionary using tuples as keys.
@@ -1024,7 +1021,7 @@ print(f"Dictionary with tuple keys: {tuple_dict}")
 print(f"Access value with tuple key (1,2): {tuple_dict[(1,2)]}")
 print()
 
-# 48) Write a Python script to sort (ascending and descending) adictionary by value. 
+ 48) Write a Python script to sort (ascending and descending) adictionary by value. 
 def sort_dict_by_value(input_dict, ascending=True):
     """
     Sort a dictionary by value in ascending or descending order.
@@ -1041,7 +1038,7 @@ print(f"Ascending order: {sort_dict_by_value(sample_dict, True)}")
 print(f"Descending order: {sort_dict_by_value(sample_dict, False)}")
 print()
 
-# 49) )Write a Python script to concatenate following dictionaries to create a new one. 
+ 49) )Write a Python script to concatenate following dictionaries to create a new one. 
 def concatenate_dicts(*dicts):
     """
     Concatenate multiple dictionaries to create a new one.
@@ -1062,7 +1059,7 @@ print(f"Dict3: {dict3}")
 print(f"Concatenated: {concatenated}")
 print()
 
-# 50) Write a Python script to check if a given key already exists in a dictionary.
+ 50) Write a Python script to check if a given key already exists in a dictionary.
 def key_exists(dictionary, key):
     """
     Check if a given key already exists in a dictionary.
@@ -1087,7 +1084,7 @@ print(f"Key 'age' exists: {key_exists(test_dict, 'age')}")
 print(f"Key 'salary' exists: {key_exists(test_dict, 'salary')}")
 print()
 
-"""
+ 
 51) How Do You Traverse Through a Dictionary Object in Python?
 
    There are several ways to traverse through a dictionary:
@@ -1107,9 +1104,9 @@ print()
    4. By keys only (explicit):
         for key in dictionary.keys():
             print(key, dictionary[key])
-"""
+ 
 
-"""
+ 
 52) How Do You Check the Presence of a Key in A Dictionary?
 
    Methods to check key presence:
@@ -1129,9 +1126,9 @@ print()
    
    4. Using keys() method:
         if key in dictionary.keys():
-"""
+ 
 
-# 53) Write a Python script to print a dictionary where the keys are numbers between 1 and 15. 
+ 53) Write a Python script to print a dictionary where the keys are numbers between 1 and 15. 
 def create_number_dict():
     """
     Create a dictionary where keys are numbers between 1 and 15.
@@ -1143,7 +1140,7 @@ number_dict = create_number_dict()
 print(f"Number dictionary: {number_dict}")
 print()
 
-# 54) Write a Python program to check multiple keys exists in a dictionary 
+ 54) Write a Python program to check multiple keys exists in a dictionary 
 def check_multiple_keys(dictionary, keys):
     """
     Check if multiple keys exist in a dictionary.
@@ -1159,7 +1156,7 @@ print(f"All keys {keys_to_check} exist: {check_multiple_keys(test_dict, keys_to_
 print(f"All keys {keys_to_check2} exist: {check_multiple_keys(test_dict, keys_to_check2)}")
 print()
 
-# 55) Write a Python script to merge two Python dictionaries
+ 55) Write a Python script to merge two Python dictionaries
 def merge_dicts(dict1, dict2):
     """
     Merge two Python dictionaries.
@@ -1184,7 +1181,7 @@ print(f"Dict B: {dict_b}")
 print(f"Merged: {merged}")
 print()
 
-# 56) Write a Python program to map two lists into a dictionary Sample output: Counter ({'a': 400, 'b': 400,’d’: 400, 'c': 300})
+ 56) Write a Python program to map two lists into a dictionary Sample output: Counter ({'a': 400, 'b': 400,’d’: 400, 'c': 300})
 def map_lists_to_dict(keys, values):
     """
     Map two lists into a dictionary.
@@ -1211,7 +1208,7 @@ print(f"Unequal lists -> Keys: {keys_list2}, Values: {values_list2}")
 print(f"Mapped dictionary: {mapped_dict2}")
 print()
 
-# 57) Write a Python program to find the highest 3 values in a dictionary 
+ 57) Write a Python program to find the highest 3 values in a dictionary 
 def highest_three_values(input_dict):
     """
     Find the highest 3 values in a dictionary.
@@ -1230,7 +1227,7 @@ print(f"Original: {sample_dict}")
 print(f"Top 3 values: {top_three}")
 print()
 
-# 58) Write a Python program to combine values in python list of dictionaries.Sample data: [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount':300}, o {'item': 'item1', 'amount': 750}]Expected Output:• Counter ({'item1': 1150, 'item2': 300})from collections import Counter
+ 58) Write a Python program to combine values in python list of dictionaries.Sample data: [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount':300}, o {'item': 'item1', 'amount': 750}]Expected Output:• Counter ({'item1': 1150, 'item2': 300})from collections import Counter
 def combine_dict_values(dict_list):
     """
     Combine values in Python list of dictionaries.
@@ -1253,7 +1250,7 @@ print(f"Sample data: {data}")
 print(f"Combined values: {combined}")
 print()
 
-# 59) )Write a Python program to create a dictionary from a string.Note: Track the count of the letters from the string
+ 59) )Write a Python program to create a dictionary from a string.Note: Track the count of the letters from the string
 def string_to_dict_count(input_string):
     """
     Create a dictionary from a string tracking letter counts.
@@ -1272,31 +1269,7 @@ print(f"String: '{test_string}'")
 print(f"Character count: {char_count}")
 print()
 
-# 60) )Sample string:'w3resource' Expected output:• {'3': 1,’s’: 1, 'r': 2, 'u': 1, 'w': 1, 'c': 1, 'e': 2, 'o': 1}
-def process_sample_string():
-    """
-    Process the specific sample string 'w3resource'
-    """
-    sample_string = 'w3resource'
-    result = {}
-    
-    for char in sample_string:
-        if char in result:
-            result[char] += 1
-        else:
-            result[char] = 1
-    
-    return result
-
-print("60) Specific Sample String Processing:")
-sample_result = process_sample_string()
-print(f"Sample string: 'w3resource'")
-print(f"Expected output: {sample_result}")
-print()
-
- # answers.py
-
-# 60) Count character frequency in a string
+ # 60) Sample string: 'w3resource' Expected output:• {'3': 1,’s’: 1, 'r': 2, 'u': 1, 'w': 1, 'c': 1, 'e': 2, 'o': 1}
 def char_frequency(sample_str):
     freq = {}
     for char in sample_str:
@@ -1307,7 +1280,7 @@ def char_frequency(sample_str):
 sample_string = 'w3resource'
 print(f"60) Character frequency: {char_frequency(sample_string)}")
 
-# 61) Calculate factorial of a number
+ 61) Write a Python function to calculate the factorial of a number (a nonnegative integer) 
 def factorial(n):
     if n < 0:
         raise ValueError("Factorial is not defined for negative numbers")
@@ -1318,11 +1291,11 @@ def factorial(n):
         result *= i
     return result
 
-# 62) Check if number is in given range
+ 62) Write a Python function to check whether a number is in a given range 
 def is_in_range(number, start, end):
     return start <= number <= end
 
-# 63) Check if number is perfect
+ 63) Write a Python function to check whether a number is perfect or not
 def is_perfect_number(n):
     if n <= 0:
         return False
@@ -1332,30 +1305,30 @@ def is_perfect_number(n):
             divisors_sum += i
     return divisors_sum == n
 
-# 64) Check if string is palindrome
+ 64) Write a Python function that checks whether a passed string is palindrome or not 
 def is_palindrome(s):
     # Remove spaces and convert to lowercase for better checking
     s = s.replace(" ", "").lower()
     return s == s[::-1]
 
-# 65) Basic types of functions in Python
+ 65)How Many Basic Types of Functions Are Available in Python?
 """
 Python has two basic types of functions:
 1. Built-in functions: Pre-defined functions that come with Python (e.g., print(), len(), range())
 2. User-defined functions: Functions created by users using the 'def' keyword
 """
 
-# 66) Pick random item from list or tuple
+ 66) How can you pick a random item from a list or tuple? 
 import random
 
 def random_from_sequence(sequence):
     return random.choice(sequence)
 
-# 67) Pick random item from range
+ 67)How can you pick a random item from a range?
 def random_from_range(start, stop, step=1):
     return random.randrange(start, stop, step)
 
-# 68) Get random number in Python
+ 68))How can you get a random number in python?
 def get_random_number():
     # Returns random float between 0 and 1
     return random.random()
@@ -1364,54 +1337,20 @@ def get_random_int(start, end):
     # Returns random integer in range [start, end]
     return random.randint(start, end)
 
-# 69) Set starting value for random number generation
+ 69)How will you set the starting value in generating random numbers? 
 def set_random_seed(seed_value):
     random.seed(seed_value)
 
-# Demonstration of all functions
-if __name__ == "__main__":
-    print("\nDemonstration:")
-    
-    # 61) Factorial
-    print(f"61) Factorial of 5: {factorial(5)}")
-    
-    # 62) Range check
-    print(f"62) Is 7 in range 1-10: {is_in_range(7, 1, 10)}")
-    
-    # 63) Perfect number check
-    print(f"63) Is 28 a perfect number: {is_perfect_number(28)}")
-    
-    # 64) Palindrome check
-    print(f"64) Is 'madam' a palindrome: {is_palindrome('madam')}")
-    
-    # 66) Random from list
-    my_list = [1, 2, 3, 4, 5]
-    print(f"66) Random item from list: {random_from_sequence(my_list)}")
-    
-    # 67) Random from range
-    print(f"67) Random from range 1-100: {random_from_range(1, 100)}")
-    
-    # 68) Random numbers
-    print(f"68) Random float: {get_random_number()}")
-    print(f"68) Random integer 1-10: {get_random_int(1, 10)}")
-    
-    # 69) Set random seed
-    set_random_seed(42)
-    print("69) Random seed set to 42")
-    print(f"   First random number with seed: {get_random_int(1, 100)}")
-    # file_operations_and_exceptions.py
+ 
 
-import random
-import os
-from collections import Counter
-
-# 70) Randomize items of a list in place
+ 70) How will you randomize the items of a list in place? 
 def randomize_list_in_place(lst):
     random.shuffle(lst)
     return lst
 
-# 71) File function in Python and keywords
-"""
+ 71) What is File function in python? What are keywords to create and write file. 
+
+ 
 File functions in Python are used to work with files (create, read, write, append).
 Keywords to create and write files:
 - open(): Used to open a file
@@ -1419,15 +1358,15 @@ Keywords to create and write files:
 - 'a': Append mode (appends to existing file)
 - 'x': Exclusive creation mode (fails if file exists)
 - 'r': Read mode (default)
-"""
+ 
 
-# 72) Read entire text file
+ 72) Write a Python program to read an entire text file.
 def read_entire_file(filename):
     with open(filename, 'r') as file:
         content = file.read()
     return content
 
-# 73) Append text to file and display
+ 73) Write a Python program to append text to a file and display the text
 def append_to_file(filename, text):
     with open(filename, 'a') as file:
         file.write(text + '\n')
@@ -1436,7 +1375,8 @@ def append_to_file(filename, text):
     print(f"Appended text: {text}")
     return text
 
-# 74) Read first n lines of a file
+ 74) )Write a Python program to read first n lines of a file. 
+
 def read_first_n_lines(filename, n):
     with open(filename, 'r') as file:
         lines = []
@@ -1447,19 +1387,19 @@ def read_first_n_lines(filename, n):
                 break
     return lines
 
-# 75) Read last n lines of a file
+ 75)Write a Python program to read last n lines of a file
 def read_last_n_lines(filename, n):
     with open(filename, 'r') as file:
         lines = file.readlines()
     return [line.strip() for line in lines[-n:]]
 
-# 76) Read file line by line into list
+ 76)Write a Python program to read a file line by line and store it into a list
 def read_file_to_list(filename):
     with open(filename, 'r') as file:
         lines = [line.strip() for line in file]
     return lines
 
-# 77) Read file line by line into variable
+ 77) Write a Python program to read a file line by line store it into a variable. 
 def read_file_to_variable(filename):
     content = ""
     with open(filename, 'r') as file:
@@ -1467,7 +1407,7 @@ def read_file_to_variable(filename):
             content += line
     return content
 
-# 78) Find the longest words
+ 78)Write a python program to find the longest words
 def find_longest_words(text):
     words = text.split()
     if not words:
@@ -1476,69 +1416,71 @@ def find_longest_words(text):
     max_length = max(len(word) for word in words)
     return [word for word in words if len(word) == max_length]
 
-# 79) Count number of lines in text file
+ 79)Write a Python program to count the number of lines in a text file
 def count_lines(filename):
     with open(filename, 'r') as file:
         return sum(1 for line in file)
 
-# 80) Count frequency of words in file
+ 80)Write a Python program to count the frequency of words in a file. 
 def count_word_frequency(filename):
     with open(filename, 'r') as file:
         content = file.read()
         words = content.split()
         return Counter(words)
 
-# 81) Write list to file
+ 81) Write a Python program to write a list to a file.
 def write_list_to_file(filename, data_list):
     with open(filename, 'w') as file:
         for item in data_list:
             file.write(str(item) + '\n')
 
-# 82) Copy contents of file to another file
+ 82)Write a Python program to copy the contents of a file to another file. 
 def copy_file(source_filename, dest_filename):
     with open(source_filename, 'r') as source:
         with open(dest_filename, 'w') as dest:
             dest.write(source.read())
 
-# 83) Exception handling and Errors
-"""
+ 83))Explain Exception handling? What is an Error in Python? 
+ 
 Exception handling: A mechanism to handle runtime errors gracefully using try-except blocks.
 Error in Python: An issue that occurs during program execution that disrupts normal flow.
 Types: Syntax errors (compile-time) and exceptions (runtime errors).
-"""
+ 
 
-# 84) Number of except statements and built-in exceptions
-"""
+ 84)How many except statements can a try-except block have? Name Some built-in exception classes: 
+
+ 
 A try-except block can have multiple except statements to handle different exceptions.
 Some built-in exception classes:
 - ValueError, TypeError, IndexError, KeyError, FileNotFoundError, ZeroDivisionError
 - ImportError, AttributeError, NameError, MemoryError, RuntimeError
-"""
+ 
 
-# 85) When else part of try-except-else executes
-"""
+ 85) When will the else part of try-except-else be executed?
+ 
 The else part executes only if no exception occurs in the try block.
-"""
+ 
 
-# 86) Multiple exception handling in one block
-"""
+ 86) Can one block of except statements handle multiple exception? 
+
+ 
 Yes, one except block can handle multiple exceptions:
 except (ValueError, TypeError) as e:
-"""
+ 
 
-# 87) When finally block executes
-"""
+ 87)When is the finally block executed? 
+ 
 The finally block always executes, whether an exception occurred or not.
 It's used for cleanup operations (like closing files).
-"""
+ 
 
-# 88) What happens when '1' == 1 is executed
-"""
+ 88)What happens when „1‟== 1 is executed?
+ 
 It returns False because we're comparing a string '1' with integer 1.
 Python doesn't perform implicit type conversion in comparisons.
-"""
+ 
 
-# 89) Exception handling with try/except/finally
+ 89)How Do You Handle Exceptions with Try/Except/Finally in Python? Explain with coding snippets. 
 def exception_handling_example():
     try:
         # Code that might raise an exception
@@ -1561,7 +1503,7 @@ def exception_handling_example():
     finally:
         print("This always executes (cleanup code here)")
 
-# 90) Program to accept only odd numbers with exception
+ 90)Write python program that user to enter only odd numbers, else will raise an exception. 
 def accept_only_odd_numbers():
     while True:
         try:
@@ -1578,66 +1520,4 @@ def accept_only_odd_numbers():
         except Exception as e:
             print(f"Unexpected error: {e}")
 
-# Demonstration functions
-def create_sample_file():
-    """Create a sample file for testing"""
-    sample_content = """Hello World
-This is a sample file
-Python programming is fun
-File handling operations
-Exception handling in Python
-Working with files and exceptions"""
-    
-    with open('sample.txt', 'w') as file:
-        file.write(sample_content)
-
-def demonstrate_file_operations():
-    """Demonstrate file operations"""
-    create_sample_file()
-    
-    print("70) Randomized list:", randomize_list_in_place([1, 2, 3, 4, 5]))
-    
-    print("\n72) Entire file content:")
-    print(read_entire_file('sample.txt'))
-    
-    print("\n73) Appending text:")
-    append_to_file('sample.txt', "This is appended text")
-    
-    print("\n74) First 3 lines:", read_first_n_lines('sample.txt', 3))
-    print("75) Last 2 lines:", read_last_n_lines('sample.txt', 2))
-    print("76) File as list:", read_file_to_list('sample.txt'))
-    print("77) File as variable length:", len(read_file_to_variable('sample.txt')))
-    
-    content = read_entire_file('sample.txt')
-    print("78) Longest words:", find_longest_words(content))
-    print("79) Number of lines:", count_lines('sample.txt'))
-    print("80) Word frequency:", count_word_frequency('sample.txt'))
-    
-    # Write list to file
-    data = ['Apple', 'Banana', 'Cherry']
-    write_list_to_file('fruits.txt', data)
-    print("81) List written to fruits.txt")
-    
-    # Copy file
-    copy_file('sample.txt', 'sample_copy.txt')
-    print("82) File copied to sample_copy.txt")
-
-def demonstrate_exception_handling():
-    """Demonstrate exception handling"""
-    print("\n89) Exception handling example:")
-    # Uncomment to test: exception_handling_example()
-    
-    print("\n90) Accept only odd numbers:")
-    # Uncomment to test: accept_only_odd_numbers()
-
-if __name__ == "__main__":
-    # Create sample file first
-    create_sample_file()
-    
-    demonstrate_file_operations()
-    demonstrate_exception_handling()
-    
-    # Cleanup
-    for file in ['sample.txt', 'sample_copy.txt', 'fruits.txt']:
-        if os.path.exists(file):
-            os.remove(file)
+ 
